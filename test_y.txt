@@ -1,0 +1,699 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<meta name="description" content="Search for public hotel IPTV channels. Free and easy to use, online IPTV m3u8 live stream url search utility, IPTV m3u m3u8 links updated daily">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<title>电视直播组播源搜索工具｜国内外组播电视有效IP搜索，m3u8酒店源、组播源udp、rtp全套直播源链接地址每日实时更新</title>
+    
+<script>(function(s){s.dataset.zone='10326919',s.src='https://gizokraijaw.net/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+</head>
+<style>
+	body {
+		font-family: sans-serif;
+		background-color: #ccc;
+		margin: 0;
+	}
+a {
+	text-decoration:none;
+	outline:none;
+    color: #000;
+}	
+	li {
+		float: left;
+		width: 150px;
+		list-style: none;
+	}	
+.nav{
+    width: 100%;
+    background-color: #fff;
+    line-height: 40px;
+    white-space: nowrap;
+    /*overflow-x: scroll;*/
+    overflow-y: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-overflow-scrolling: touch;
+    text-align: justify;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    color: #000;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 4px;
+}     
+#copyed {margin: auto; width: 120px; height: 28px; text-align: center;display: none; position: fixed; left: 50%;top: 50%; transform: translate(-50%,-50%); background-color: #000; border: 1px solid #555; font-size: 14px;line-height: 28px;color: #fff;}
+	
+.input[type="text"] {
+    width: 100%;
+    color: #000;
+    background: #fff;
+    outline: none;
+    font-size: 1em;
+    padding: 0.4em 1em;
+    margin-bottom: 1.1em;
+    border: solid 1px #fff;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-family: 'Helvetica', sans-serif;
+}
+	input {
+		outline: none; /* 移除焦点时的轮廓 */
+		border: 2px solid #9c27b0;
+	}	
+	input:focus {
+  		border: 2px solid #9c27b0; /* 获得焦点时改变边框为蓝色 */
+	}	
+.box{//外部的div盒子
+  display: flex;//先设置div里的内容显示同一行
+  justify-content: flex-start;//左右布局
+  flex-wrap: wrap;//换行
+  align-content: flex-start;//紧揍排列
+}	
+.sh {
+	display: inline-block;
+	border: 1px solid #24F1FB; 
+	border-radius: 5px; 
+	/*float: left; */
+	margin: 3px; 
+	padding: 2px 6px; 
+	font-size: 13px;
+	cursor:pointer; 
+	max-width: 200px;
+	text-overflow: ellipsis;
+	white-space: nowrap; 
+	word-break: break-all; 
+	overflow: hidden;
+	background-color: #1a73e8;
+	color: #fff;
+	}
+	.ta6les {
+		table-layout:fixed; width: 100%; overflow: hidden;
+		font-size: 14px;
+	}
+	.ad1 {
+		display: block;
+	}	
+	.ad2 {
+		display: none;
+	}
+    .ad5 {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+	.fd {
+		margin: 0 auto; 
+		max-width: 533px; 
+		width: 100%; 
+		height: 300px;		
+	}
+	.ad0 {
+ 		width: 100%;
+		/*height: 0;
+		padding-bottom: 56.25%;*/
+		background: url(images/10.gif) no-repeat; 
+		text-align: center;
+		background-size: 100% 100%;
+		
+	}
+	.ad3 {
+		display: block;
+	}
+	.ad4 {
+		display: none;
+	}
+	.imgw {
+		width: 16px;
+	}	
+.nu {
+	width:10px; height: 10px;  
+	border-radius: 10px;  color: #fff;text-align: center;
+    font-size: 10px;
+	padding-top: 2px;
+	padding-left: 3px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	}		
+.arrow{
+            width: 0px;
+            height: 0px;
+            border-top: 4px solid transparent;
+            border-bottom: 4px solid transparent;
+      
+            border-left: 5px solid #fff;	
+			margin-left: 2px;
+}	
+	.tdheigh {
+		line-height: 16px;
+		height: 40px;
+	}	
+	.result {
+		font-size: 14px;
+		line-height: 22px;
+		color: var(--black4);
+		padding: 0.6rem 1.5rem;
+        margin-bottom: 5px;
+		border: 0 none;
+		background-color: #fff;
+			
+	}
+	.channel{
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: var(--font-bold);
+		float: left;
+		width: 58%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.m3u8 {
+		margin-top: 4px;
+	}	
+	@media (max-width: 800px) {
+	.nu {
+		margin-top: 5px;
+	}
+	.ta6les {
+		font-size: 12px;
+	}
+	.ad1 {
+		display: none;
+	}	
+	.ad2 {
+		display: block;
+	}
+	.ad0 {
+		background-size: 100% 86.25%;
+		height: 0;
+		padding-bottom: 66.25%;
+	}
+	.ad3 {
+		/*display: none;*/
+	}
+	.ad4 {
+		display: block;
+	}
+		.imgw {
+		width: 28px;
+	}
+}
+</style>
+<body style="background-color:#ddd; color:#000;" onload="cc()">
+<div style="background-color: #131313; color:#fff; font-size: 30px; width: 100%; height: 50px; line-height: 50px;padding-left: 0px;">
+	<a href="iptvmulticast.php" style="color: #fff;"><div style=" float: left; width: 85%">&nbsp;&nbsp;&nbsp;IPTV <span style="font-size: 14PX;">Link Search</span></div></a> 
+	<div style="float: right; margin-right: 20px; padding-top: 14px;"> <a href="http://foodieguide.com/iptvsearch/"><img src="images/home.jpg" width="25"></a> </div>
+</div>
+<div style="clear: both;"></div>	
+<div style="margin: 0 auto; max-width: 950px; width: 100%;">
+	<div style="background-color: #fff;">
+<br />
+<br />
+<div class="fd">
+	<div class="ad0" id="ad0">
+	   <div class="ad3">
+		<style>
+		.vd { width: 533px; height: 300px; }
+		@media(max-width: 500px) { .vd { width: 99%; height: 213px; padding-top: 15px; } }
+		</style>		   
+		<a href="https://otieu.com/4/10167007" target="_blank">		
+		<div class="vd" style="display: flex; color: #fff;align-items: center;justify-content: center;background-color: #0000007f;">
+			<div style="width: 40px; height: 40px;"><img src="images/play.png" width="100%"></div>
+		</div>   
+		</a>
+	  </div>
+
+	</div>
+</div>
+<br />
+<p align="center" style="background-color: #fff;">
+   <b style="font-size: 18px;">最新组播源IP搜索</b>
+   
+    
+	<div style="font-size:28px; text-align: center">	
+		<!--<form id="form1" name="form1" method="post" action="/iptvsearch/">-->
+		<form id="form1" name="form1" method="post" action="iptvhotel.php">
+			<input style="border-radius: 8px;font-size: 18px;line-height: 30px;width:90%; max-width: 400px; padding: 6px;" name="c6235" id="search" type="text" value="" οnfοcus= "cc()" onClick="cc()" onChange="cc()" />
+
+			<input type="submit" name="Submit" value=" " style="cursor: pointer;background-image: url(&quot;images/search.png&quot;); background-size: cover; height: 26px; width: 26px; margin-left: -40px; line-height: 30px; border: 0px; background-color: #fff;">
+			<div style="font-size: 12px;">可输入所在省市区、营运商等查找组播源</div>
+
+    </div>
+</p>
+		
+	
+    
+	<div class="nav">
+		<div style="text-align: center; margin: 8px auto;font-size: 15px;">
+
+				<a href="https://otieu.com/4/10167007" target="_blank">找源工具：&nbsp;&nbsp;</a>
+            <a href="http://zqjy.info"><span title="IPTV在线播放器，直播源在线检测工具。无须安装软件。">在线播放器</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="channellist.html"><span title="一键获取有效IP的整套播放列表">频道一锅端</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="iptvs.php"><span title="通过频道名称检索直播源IP及对应端口">檢索頻道IP</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="iptvhotel.php"><span title="获取最新酒店源IP">酒店源IP</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="iptvmulticast.php"><span title="获取最新组播源IP">组播源IP</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="mqlive.php"><span title="获取最新秒开源IP">秒播源IP</span></a>
+  
+		</div>
+		<hr style="margin: 0;">
+	</div>  
+</div>    
+	<div class="result">
+		<div class="channel" style="float: none;">
+最新组播源IP列表(实时更新)		</div>
+	</div>
+	<div class="ta6les" >
+						<div class="result">
+							<div class="channel">
+
+                                
+									<a href='channellist.html?ip=27.18.35.140&tk=c62355f1&p=2' title="Channel List"><b><img src="images/link2.jpg" width="16"> 27.18.35.140</b>
+                               
+                                </a>
+																
+							</div>
+							<div style="float: left">
+								<a href='channellist.html?ip=27.18.35.140&tk=c62355f1&p=1' title="Channel List">频道数：<span style="font-size: 18px;"><b>207</b></span></a>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">新上线<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2026-02-14 11:13上线 
+                                   湖北武汉组播 湖北电信                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：http://tonkiang.us 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+
+                                
+									<a href='channellist.html?ip=27.12.124.30&tk=c62355f1&p=2' title="Channel List"><b><img src="images/link2.jpg" width="16"> 27.12.124.30</b>
+                               
+                                </a>
+																
+							</div>
+							<div style="float: left">
+								<a href='channellist.html?ip=27.12.124.30&tk=c62355f1&p=1' title="Channel List">频道数：<span style="font-size: 18px;"><b>167</b></span></a>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">新上线<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2026-02-14 10:01上线 
+                                   重庆组播 重庆联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：http://tonkiang.us 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+
+                                
+									<a href='channellist.html?ip=182.121.115.15&tk=c62355f1&p=2' title="Channel List"><b><img src="images/link2.jpg" width="16"> 182.121.115.15</b>
+                               
+                                </a>
+																
+							</div>
+							<div style="float: left">
+								<a href='channellist.html?ip=182.121.115.15&tk=c62355f1&p=1' title="Channel List">频道数：<span style="font-size: 18px;"><b>172</b></span></a>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">新上线<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2026-02-14 07:52上线 
+                                   河南洛阳组播 河南联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：http://tonkiang.us 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+
+                                
+									<a href='channellist.html?ip=117.86.48.47&tk=c62355f1&p=2' title="Channel List"><b><img src="images/link2.jpg" width="16"> 117.86.48.47</b>
+                               
+                                </a>
+																
+							</div>
+							<div style="float: left">
+								<a href='channellist.html?ip=117.86.48.47&tk=c62355f1&p=1' title="Channel List">频道数：<span style="font-size: 18px;"><b>288</b></span></a>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">新上线<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2026-02-14 05:27上线 
+                                   江苏南通组播 江苏电信                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：http://tonkiang.us 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+
+                                
+									<a href='channellist.html?ip=115.225.197.165&tk=c62355f1&p=2' title="Channel List"><b><img src="images/link2.jpg" width="16"> 115.225.197.165</b>
+                               
+                                </a>
+																
+							</div>
+							<div style="float: left">
+								<a href='channellist.html?ip=115.225.197.165&tk=c62355f1&p=1' title="Channel List">频道数：<span style="font-size: 18px;"><b>320</b></span></a>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">新上线<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2026-02-14 05:26上线 
+                                   浙江绍兴组播 浙江电信                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：http://tonkiang.us 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+
+                                
+									<a href='channellist.html?ip=27.11.255.157&tk=c62355f1&p=2' title="Channel List"><b><img src="images/link2.jpg" width="16"> 27.11.255.157</b>
+                               
+                                </a>
+																
+							</div>
+							<div style="float: left">
+								<a href='channellist.html?ip=27.11.255.157&tk=c62355f1&p=1' title="Channel List">频道数：<span style="font-size: 18px;"><b>167</b></span></a>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">新上线<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2026-02-14 03:24上线 
+                                   重庆组播 重庆联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：http://tonkiang.us 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+
+                                
+									<a href='channellist.html?ip=124.162.221.206&tk=c62355f1&p=2' title="Channel List"><b><img src="images/link2.jpg" width="16"> 124.162.221.206</b>
+                               
+                                </a>
+																
+							</div>
+							<div style="float: left">
+								<a href='channellist.html?ip=124.162.221.206&tk=c62355f1&p=1' title="Channel List">频道数：<span style="font-size: 18px;"><b>167</b></span></a>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">新上线<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2026-02-14 03:24上线 
+                                   重庆组播 重庆联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：http://tonkiang.us 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+
+                                
+									<a href='channellist.html?ip=123.10.79.214&tk=c62355f1&p=2' title="Channel List"><b><img src="images/link2.jpg" width="16"> 123.10.79.214</b>
+                               
+                                </a>
+																
+							</div>
+							<div style="float: left">
+								<a href='channellist.html?ip=123.10.79.214&tk=c62355f1&p=1' title="Channel List">频道数：<span style="font-size: 18px;"><b>172</b></span></a>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">新上线<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2026-02-14 03:24上线 
+                                   河南漯河组播 河南联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：http://tonkiang.us 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+
+                                
+									<a href='channellist.html?ip=183.30.202.94&tk=c62355f1&p=2' title="Channel List"><b><img src="images/link2.jpg" width="16"> 183.30.202.94</b>
+                               
+                                </a>
+																
+							</div>
+							<div style="float: left">
+								<a href='channellist.html?ip=183.30.202.94&tk=c62355f1&p=1' title="Channel List">频道数：<span style="font-size: 18px;"><b>332</b></span></a>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">新上线<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2026-02-14 03:24上线 
+                                   广东惠州组播 广东电信                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：http://tonkiang.us 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+
+                                
+									<a href='channellist.html?ip=211.158.152.234&tk=c62355f1&p=2' title="Channel List"><b><img src="images/link2.jpg" width="16"> 211.158.152.234</b>
+                               
+                                </a>
+																
+							</div>
+							<div style="float: left">
+								<a href='channellist.html?ip=211.158.152.234&tk=c62355f1&p=1' title="Channel List">频道数：<span style="font-size: 18px;"><b>167</b></span></a>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">新上线<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2026-02-14 03:19上线 
+                                   重庆组播 重庆联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：http://tonkiang.us 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+
+                                
+									<a href='channellist.html?ip=27.11.255.157&tk=c62355f1&p=2' title="Channel List"><b><img src="images/link2.jpg" width="16"> 27.11.255.157</b>
+                               
+                                </a>
+																
+							</div>
+							<div style="float: left">
+								<a href='channellist.html?ip=27.11.255.157&tk=c62355f1&p=1' title="Channel List">频道数：<span style="font-size: 18px;"><b>167</b></span></a>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">新上线<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2026-02-14 03:19上线 
+                                   重庆组播 重庆联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：http://tonkiang.us 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+
+                                
+									<a href='channellist.html?ip=27.10.215.124&tk=c62355f1&p=2' title="Channel List"><b><img src="images/link2.jpg" width="16"> 27.10.215.124</b>
+                               
+                                </a>
+																
+							</div>
+							<div style="float: left">
+								<a href='channellist.html?ip=27.10.215.124&tk=c62355f1&p=1' title="Channel List">频道数：<span style="font-size: 18px;"><b>167</b></span></a>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">新上线<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2026-02-14 03:19上线 
+                                   重庆组播 重庆联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：http://tonkiang.us 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+	</div>
+
+	
+
+
+	<div style="background-color: #fff;margin-top: -6px">
+<div style='display:flex;justify-content:center;'><a href='?page=1&iphone16=&code=57994'><div class='sh'>|<</div></a> <a href='?page=1&iphone16=&code=57994'><div class='sh'><<</div></a> <a href='?page=1&iphone16=&code=57994'><div class='sh' style='background-color: #fff; color: #000;'>1</div></a><a href='?page=2&iphone16=&code=57994'><div class='sh'>2</div></a><a href='?page=3&iphone16=&code=57994'><div class='sh'>3</div></a><a href='?page=4&iphone16=&code=57994'><div class='sh'>4</div></a><a href='?page=5&iphone16=&code=57994'><div class='sh'>5</div></a><a href='?page=6&iphone16=&code=57994'><div class='sh'>6</div></a><a href='?page=7&iphone16=&code=57994'><div class='sh'>7</div></a><a href='?page=8&iphone16=&code=57994'><div class='sh'>8</div></a><a href='?page=2&iphone16=&code=57994'><div class='sh'>>></div></a> <a href='?page=851&iphone16=&code=57994'><div class='sh'>>|</div></a><div style='clear: both;'></div> </div>  <div style="background-color: #fff;margin-top: 6px;">        
+<br /><br /><br />
+<div style="margin: 0 auto; max-width: 620px; width: 92%;">   
+	<div class="ad5">
+		<input type="hidden" name="town" id="town" value="NjkzMDA0">
+        <input type="hidden" name="ave" id="ave" value="KuudNuB02s">
+	</div>
+<div style="background-color: #fff">
+<br><br>
+<br />
+</form>
+
+<div style="margin: 0 auto; max-width: 600px; width: 92%; padding: 15px 8px 8px 8px; border-radius: 10px; font-size: 10px; color: #ccc;font-style: italic; text-align: justify;">
+	* We only re-share free Iptv links (such as public IPTV channels, live stream url, m3u8, ts, flv, rtsp, rtmp, txt ect. ) which are already at public accessible websites. We DO NOT host or stream any videos on this website,  We urge all copyright owners, to recognize that links contained within this site are located somewhere else on the web. Please direct all copyright infringement issues to the companies that host these files.
+	<p align="center"><br>Report a Violation mailbox on this site: <a href="email:pptv88002025@gmail.com">pptv88002025@gmail.com</a></p>
+	<br><br><p align="center" style="font-size: 14px; color: #000; text-align: center;font-style: normal;">Copyright © 2021-2026 FoodieGuide.com</p><br><br>
+	</div>
+</div>
+<div id="copyed">copyed to clip</div>
+  </div>    
+
+<script src="jquery-2.2.3.min.js"></script>
+<script src="js/jquery.share.js?v=3.7"></script>      
+<script>
+function change(s){ 
+	document.getElementById("search").value=s;
+	document.getElementById('form1').submit();
+}
+iy=2.3513346877208;    
+function copyto(content){
+	put = document.createElement("input"); // 直接构建input
+          put.value = content; // 设置内容
+          document.body.appendChild(put); // 添加临时实例
+          put.select(); // 选择实例内容
+          document.execCommand("Copy"); // 执行复制
+          document.body.removeChild(put); // 删除临时实例
+		k=Math.floor(Math.random()*14)+1;
+		document.getElementById("ad0").style.background="url(images/"+k+".gif) no-repeat";
+	$('#copyed').fadeIn(1500);
+	$('#copyed').fadeOut(2000);
+	//document.getElementById("copyed").style.display="block";
+}
+function  cc()
+{
+	var range, el = document.getElementById('search');
+    var ct=$('#town').val();
+    if (ct.length==9) {$('#town').val(ct+iy);}
+	if (el.setSelectionRange) {
+	el.focus();
+
+	el.setSelectionRange(el.value.length, el.value.length)
+
+	} else {
+	range = el.createTextRange();
+
+	range.collapse(false);
+
+	range.select();
+
+	}
+}	
+$("#search").focus(function(){
+   $("#ave").val(); 
+});    
+</script>
+  <!--<iframe src="https://tonkiang.us/tjip.php" width="1" height="1"></iframe>
+    Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4835840,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4835840&101" alt="stats count" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</div>
+</body>
+
+</html>
