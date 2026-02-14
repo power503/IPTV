@@ -26,3 +26,4 @@ print(r.text)
 with open('test_y.txt', 'w', encoding='utf-8') as f:
     # 获取当前日期并格式化 # 输出示例：2026-02-06
     f.write(r.text)
+    print('write ok')
