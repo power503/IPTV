@@ -34,6 +34,14 @@ jobs:
 
     - name: Run Python script
       run: python test.py
+  
+    - name: Commit and push changes
+      run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add test_y.txt
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update test_y.txt"
+          git push
 
     env:
       TZ: Asia/Shanghai
