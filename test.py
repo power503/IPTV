@@ -22,7 +22,7 @@ headers = {
 
 r = session.get('http://foodieguide.com/iptvsearch/iptvmulticast.php?page=1&iphone16=&code=',headers=headers)
 # 后续请求自动携带Cookie
-
+print(r.text)
 with open('test_y.txt', 'w', encoding='utf-8') as f:
     # 获取当前日期并格式化 # 输出示例：2026-02-06
     f.write(r.text)
